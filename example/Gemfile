@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+source 'https://rubygems.org'
+
+gem 'excon'
+gem 'opentelemetry-api'
+gem 'opentelemetry-common'
+gem 'opentelemetry-instrumentation-excon'
+gem 'opentelemetry-sdk'
+
+gem 'appoptics_apm'
+gem 'opentelemetry-exporter-solarwinds', path: '..'
+
+gem 'byebug'
+
+

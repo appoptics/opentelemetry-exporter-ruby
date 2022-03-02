@@ -1,8 +1,8 @@
 require "test_helper"
 
-class Opentelemetry::Exporter::SolarwindsTest < Minitest::Test
+class Opentelemetry::Exporter::SolarWindsTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Opentelemetry::Exporter::Solarwinds::VERSION
+    refute_nil ::Opentelemetry::Exporter::SolarWinds::VERSION
   end
 
   def test_it_does_something_useful

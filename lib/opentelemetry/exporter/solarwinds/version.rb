@@ -1,6 +1,6 @@
 module Opentelemetry
   module Exporter
-    module Solarwinds
+    module SolarWinds
       VERSION = "0.1.0"
     end
   end
